@@ -1,4 +1,7 @@
-const BASE_URL = "http://localhost:8081/api/students";
+// For production deployment, update this URL to your deployed backend
+const BASE_URL = process.env.NODE_ENV === 'production'
+  ? "https://your-backend-url.onrender.com/api/students"  // Replace with your actual backend URL
+  : "http://localhost:8081/api/students";
 
 // ✅ Get all students
 export const getAllStudents = async () => {
