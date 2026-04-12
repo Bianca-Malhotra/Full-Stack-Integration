@@ -14,7 +14,7 @@ The platform is structured into a logical, high-performance workstation hierarch
 - **🖥️ Operational Dashboard (/dashboard)**: The primary 3-column command center for real-time monitoring and active protocols.
 - **🔐 Security Network (/contacts)**: A dedicated 4-column workstation for authorizing and managing high-security endpoints.
 
-## ✨ Core Tactical Protocols
+## ✨ FEATURES
 
 ### 🔗 Live Intelligence Link
 One-tap native sharing (WhatsApp/SMS) of a secret, view-only monitoring feed. Emergency contacts can track live telemetry and status without needing an account.
