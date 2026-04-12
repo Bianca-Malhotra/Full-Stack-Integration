@@ -14,18 +14,6 @@ The platform is structured into a logical, high-performance workstation hierarch
 - **🖥️ Operational Dashboard (/dashboard)**: The primary 3-column command center for real-time monitoring and active protocols.
 - **🔐 Security Network (/contacts)**: A dedicated 4-column workstation for authorizing and managing high-security endpoints.
 
-## 📸 Visual Intelligence
-
-| Intelligence Hub (Home) | Operational Dashboard |
-|:---:|:---:|
-| ![Hub Screenshot](assets/hub_preview.png) | ![Dashboard Screenshot](assets/dashboard_preview.png) |
-
-| Security Network | Operational Mission |
-|:---:|:---:|
-| ![Network Screenshot](assets/network_preview.png) | ![Mission Screenshot](assets/mission_preview.png) |
-
----
-
 ## ✨ Core Tactical Protocols
 
 ### 🔗 Live Intelligence Link
