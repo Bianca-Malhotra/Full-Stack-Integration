@@ -2,13 +2,13 @@ import React from "react";
 
 const AppFooter = () => {
   return (
-    <footer className="glass-panel" style={{ marginTop: 'auto', borderTop: '1px solid var(--border-light)', background: '#ffffff', padding: '4rem 0' }}>
+    <footer className="glass-panel" style={{ marginTop: 'auto', borderTop: '1px solid var(--border-light)', background: 'var(--bg-surface)', padding: '4rem 0' }}>
       <div className="layout-container" style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr 1fr', gap: '4rem' }}>
         
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1.5rem' }}>
             <div style={{ width: '32px', height: '32px', background: 'var(--primary)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 900 }}>S</div>
-            <span style={{ fontSize: '1.25rem', fontWeight: 900, color: '#0f172a', letterSpacing: '-0.03em' }}>SafeRoute</span>
+            <span style={{ fontSize: '1.25rem', fontWeight: 900, color: 'var(--text-main)', letterSpacing: '-0.03em' }}>SafeRoute</span>
           </div>
           <p className="text-sub" style={{ fontSize: '0.95rem', maxWidth: '350px' }}>
             Empowering individuals with real-time risk assessment, stealth emergency protocols, and intelligence-led safety telemetry.
