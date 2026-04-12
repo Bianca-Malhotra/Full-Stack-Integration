@@ -14,6 +14,16 @@ The platform is structured into a logical, high-performance workstation hierarch
 - **🖥️ Operational Dashboard (/dashboard)**: The primary 3-column command center for real-time monitoring and active protocols.
 - **🔐 Security Network (/contacts)**: A dedicated 4-column workstation for authorizing and managing high-security endpoints.
 
+## 📸 Visual Intelligence
+
+| Intelligence Hub (Home) | Operational Dashboard |
+|:---:|:---:|
+| ![Hub Screenshot](assets/hub_preview.png) | ![Dashboard Screenshot](assets/dashboard_preview.png) |
+
+| Security Network | Operational Mission |
+|:---:|:---:|
+| ![Network Screenshot](assets/network_preview.png) | ![Mission Screenshot](assets/mission_preview.png) |
+
 ---
 
 ## ✨ Core Tactical Protocols
@@ -22,9 +32,9 @@ The platform is structured into a logical, high-performance workstation hierarch
 Real-time location synchronization across secure cloud architecture, ensuring your network always knows your precise coordinates during active journeys.
 
 ### 🔏 Stealth SOS Broadcasting
-Trigger emergency alerts silently with a single high-fidelity interaction. Encrypted event data is dispatched to authorized endpoints instantly via SMTP protocols.
+Trigger emergency alerts silently with a single high-fidelity interaction. Encrypted event data is dispatched to authorized endpoints instantly.
 
-### 🛡️ Safe-Zone Routing
+### 🛡️ Safe-Zone Analysis
 Integrated intelligence that identifies verified safe-havens, tactical escape routes, and spoofing protocols to set up immediate extraction points.
 
 ### ⌛ Arrival Protocol
@@ -52,7 +62,7 @@ The platform features a proprietary **Sky Workspace** theme designed for maximum
 ### Backend (Spring Boot Core)
 - **Spring Boot 3** - Enterprise Java framework for safety-critical logic.
 - **JWT Security** - Stateless 7-day session management with high-entropy signing.
-- **SMTP Alerts** - Professional email notification system for global dispatch.
+- **Alert Dispatch** - Professional notification system for global event orchestration.
 - **Spring Data JPA** - Optimized MySQL 8 mapping for safety registries.
 
 ---
@@ -63,14 +73,14 @@ The platform features a proprietary **Sky Workspace** theme designed for maximum
 - **Java JDK 17+**
 - **Node.js 18+**
 - **MySQL 8.0**
-- **SMTP Server** (Gmail App Password recommended)
+- **Alert Credentials** (Provider specific)
 
 ### Critical Configuration
 Update your `application.properties` with the following tactical secrets:
 ```properties
 jwt.secret=YOUR_CUSTOM_256_BIT_SECRET
 app.jwt.expiration-ms=604800000
-spring.mail.password=${SMTP_PASSWORD}
+spring.mail.password=${ALERT_PASSWORD}
 ```
 
 ### Installation Sequence
