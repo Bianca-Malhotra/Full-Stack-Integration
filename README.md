@@ -1,6 +1,6 @@
 # 🛰️ SafeRoute: Operational Security Platform
 
-**SafeRoute** is a high-fidelity, enterprise-grade personal safety platform engineered to empower individuals with real-time risk assessment, stealth emergency protocols, and intelligence-led telemetry. Designed for professional workstations and expansive 1800px horizons.
+**SafeRoute** is a high-fidelity, enterprise-grade personal safety platform engineered to empower individuals with real-time risk assessment, stealth emergency protocols, and intelligence-led telemetry. 
 
 ![SafeRoute Integrity](https://img.shields.io/badge/Status-Operational-0ea5e9)
 ![License](https://img.shields.io/badge/License-MIT-0369a1)
@@ -9,25 +9,28 @@
 ---
 ## ✨ FEATURES
 
-### 🔗 Live Intelligence Link
-One-tap native sharing (WhatsApp/SMS) of a secret, view-only monitoring feed. Emergency contacts can track live telemetry and status without needing an account.
+🔗 Live Tracking Link
 
-### 🌗 Shadow Protocol (Dark Mode)
-A persistent, high-fidelity dark vision environment featuring deep midnight gradients (#020617) and high-contrast Ghost-White identities for nighttime operations.
+Share your live location with one tap using WhatsApp or SMS.
+Your emergency contacts can track you in real time without needing to install the app.
 
-### 📡 Global Telemetry
-Real-time location synchronization across secure cloud architecture, ensuring your network always knows your precise coordinates during active journeys.
+📡 Live Location Updates
 
-### 🔏 Stealth SOS Broadcasting
-Trigger emergency alerts silently with a single high-fidelity interaction. Encrypted event data is dispatched to authorized endpoints instantly.
+Your location is continuously updated and shared securely, so your trusted contacts always know where you are during a journey.
 
-### 🛡️ Safe-Zone Analysis
-Integrated intelligence that identifies verified safe-havens, tactical escape routes, and spoofing protocols to set up immediate extraction points.
+🔏 Silent SOS Alert
 
-### ⌛ Arrival Protocol
-Automated time-horizon monitoring. If manual confirmation isn't received within the specified window, the platform automatically escalates telemetry to your security network.
+In case of danger, you can send an emergency alert silently with just one action.
+Your selected contacts will instantly receive your location and alert.
 
----
+🛡️ Safe Zone Suggestions
+
+The app helps you find nearby safe places and the best routes to reach them quickly in an emergency.
+
+⌛ Arrival Check System
+
+You can set a time for when you should reach your destination.
+If you don’t confirm your arrival, the app automatically alerts your emergency contacts.
 
 <img width="1894" height="831" alt="image" src="https://github.com/user-attachments/assets/0e7e8f79-ccdb-4c35-9c53-5bbebec54d00" />
 <img width="1159" height="859" alt="image" src="https://github.com/user-attachments/assets/3b61326c-27f8-4525-84c2-7c1984004107" />
