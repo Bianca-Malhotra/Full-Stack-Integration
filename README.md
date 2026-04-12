@@ -7,13 +7,6 @@
 ![Auth](https://img.shields.io/badge/Security-JWT%207D-0ea5e9)
 
 ---
-
-## 🏛️ Architecture: The Intelligence Hub
-The platform is structured into a logical, high-performance workstation hierarchy:
-- **🏠 Intelligence Hub (Root /)**: The grand landing home with tactical feature showcases and the Operational Mission.
-- **🖥️ Operational Dashboard (/dashboard)**: The primary 3-column command center for real-time monitoring and active protocols.
-- **🔐 Security Network (/contacts)**: A dedicated 4-column workstation for authorizing and managing high-security endpoints.
-
 ## ✨ FEATURES
 
 ### 🔗 Live Intelligence Link
