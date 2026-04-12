@@ -105,11 +105,11 @@ const ContactsPage = () => {
             }}>
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.25rem' }}>
-                  <p style={{ fontWeight: 700, fontSize: '1.15rem', color: '#0f172a' }}>{c.name}</p>
-                  <span style={{ fontSize: '0.7rem', padding: '0.25rem 0.5rem', background: '#f1f5f9', borderRadius: '4px', fontWeight: 600, color: '#64748b', textTransform: 'uppercase' }}>{c.relation}</span>
+                  <p style={{ fontWeight: 700, fontSize: '1.15rem', color: 'var(--text-main)' }}>{c.name}</p>
+                  <span style={{ fontSize: '0.7rem', padding: '0.25rem 0.5rem', background: 'var(--bg-main)', borderRadius: '4px', fontWeight: 600, color: 'var(--text-muted)', textTransform: 'uppercase' }}>{c.relation}</span>
                 </div>
-                <p className="text-sub" style={{ fontSize: '0.875rem' }}>{c.phone}</p>
-                <p className="text-sub" style={{ fontSize: '0.875rem' }}>{c.email}</p>
+                <p className="text-sub" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>{c.phone}</p>
+                <p className="text-sub" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>{c.email}</p>
               </div>
               <div style={{ display: 'flex', gap: '0.5rem' }}>
                 <button onClick={() => onEdit(c)} className="btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', borderRadius: '6px' }}>Manage</button>
