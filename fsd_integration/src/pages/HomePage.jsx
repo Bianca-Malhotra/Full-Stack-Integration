@@ -4,6 +4,7 @@ import GetMeOutPanel from "../components/GetMeOutPanel";
 import PlanSomethingPanel from "../components/PlanSomethingPanel";
 import SafetyStatusPill from "../components/SafetyStatusPill";
 import { confirmCheckIn, getSafetyStatus, startCheckIn, updateLocation } from "../services/api";
+import { useAuth } from "../services/auth";
 
 const HomePage = () => {
   const [status, setStatus] = useState("SAFE");
