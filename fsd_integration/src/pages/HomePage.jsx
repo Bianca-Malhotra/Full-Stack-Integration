@@ -112,6 +112,29 @@ const HomePage = () => {
     }
   };
 
+  const { user } = useAuth();
+
+  const handleShareIntelligence = async () => {
+    const liveLink = window.location.origin + "/monitor/" + user.id;
+    const shareData = {
+      title: 'SafeRoute Intelligence Feed',
+      text: 'Monitoring Alert! I am sharing my live security feed with you via SafeRoute. View my status here:',
+      url: liveLink,
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+      } catch (err) {
+        console.log("Share aborted");
+      }
+    } else {
+      navigator.clipboard.writeText(liveLink);
+      setInfo("Intelligence link copied to clipboard.");
+      setTimeout(() => setInfo(""), 3000);
+    }
+  };
+
   return (
     <>
       <AppHeader />
@@ -166,7 +189,10 @@ const HomePage = () => {
              <section id="tour-status" className="glass-card" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '2.5rem 4rem' }}>
                 <div>
                   <h2 className="heading-2" style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>Encryption Active</h2>
-                  <p className="text-sub" style={{ fontSize: '1rem' }}>End-to-end secure location synchronization is currently broadcasting.</p>
+                  <p className="text-sub" style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>End-to-end secure location synchronization is currently broadcasting.</p>
+                  <button onClick={handleShareIntelligence} className="btn-primary" style={{ padding: '0.6rem 1.25rem', fontSize: '0.8rem', borderRadius: '50px' }}>
+                    🔗 Share Intelligence Feed
+                  </button>
                 </div>
                 <SafetyStatusPill status={status} />
              </section>

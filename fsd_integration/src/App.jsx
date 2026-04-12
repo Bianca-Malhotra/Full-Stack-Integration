@@ -7,6 +7,7 @@ const LoginPage = lazy(() => import("./pages/LoginPage"));
 const HomePage = lazy(() => import("./pages/HomePage"));
 const ContactsPage = lazy(() => import("./pages/ContactsPage"));
 const InfoPage = lazy(() => import("./pages/InfoPage"));
+const LiveMonitoringPage = lazy(() => import("./pages/LiveMonitoringPage"));
 
 // Premium 'Operational' Loading Fallback
 const OperationalFallback = () => (
@@ -52,6 +53,7 @@ const AppRoutes = () => (
           </Protected>
         }
       />
+      <Route path="/monitor/:userId" element={<LiveMonitoringPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </Suspense>
