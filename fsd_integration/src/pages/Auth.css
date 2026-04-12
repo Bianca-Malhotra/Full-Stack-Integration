@@ -1,0 +1,111 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    background: radial-gradient(circle at center, var(--bg-card) 0%, var(--bg-dark) 100%);
+}
+
+.auth-card {
+    background-color: var(--bg-card);
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.auth-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.auth-subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+}
+
+.auth-error {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: var(--danger);
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid var(--danger);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.auth-success {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid var(--success);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #374151;
+    background-color: #1f2937;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: var(--primary-color);
+}
+
+.btn-auth {
+    background-color: var(--primary-color);
+    color: var(--bg-dark);
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-auth:hover {
+    transform: translateY(-2px);
+    background-color: #e59310;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--text-muted);
+}
+
+.auth-footer a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
+}
