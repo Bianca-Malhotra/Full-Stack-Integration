@@ -8,7 +8,7 @@ const LiveMonitoringPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = "http://localhost:8080/api/public/live/" + userId;
+  const API_URL = "/api/public/live/" + userId;
 
   const fetchTelemetry = async () => {
     try {
