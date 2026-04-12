@@ -22,11 +22,20 @@ const AppHeader = () => {
   return (
     <header className="app-header glass-panel" style={{ position: 'sticky', top: 0, zIndex: 100, borderBottom: '1px solid var(--border-light)' }}>
       <div className="header-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '1800px', margin: '0 auto', padding: '1rem 3rem' }}>
-        <div className="brand" onClick={() => navigate("/")} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <div style={{ width: '40px', height: '40px', background: 'var(--primary)', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 900, fontSize: '1.2rem' }}>S</div>
+        <div className="brand" onClick={() => navigate("/")} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+          <div style={{ width: '48px', height: '48px', background: 'linear-gradient(135deg, var(--primary), var(--primary-hover))', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 900, fontSize: '1.5rem', boxShadow: '0 10px 20px rgba(14, 165, 233, 0.2)' }}>S</div>
           <div>
-            <span className="brand-name" style={{ fontSize: '1.5rem', fontWeight: 850, color: 'var(--text-main)', letterSpacing: '-0.03em' }}>SafeRoute</span>
-            <span className="brand-tag" style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 600, marginTop: '-2px' }}>Operational Security Platform</span>
+            <span className="brand-name" style={{ 
+              fontSize: '2.2rem', 
+              fontFamily: "'Playfair Display', serif",
+              fontWeight: 900, 
+              background: 'linear-gradient(to right, var(--primary), #6366f1)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              letterSpacing: '-0.02em',
+              lineHeight: 1
+            }}>SafeRoute</span>
+            <span className="brand-tag" style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', marginTop: '0.25rem' }}>Operational Security Platform</span>
           </div>
         </div>
         <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'center' }}>

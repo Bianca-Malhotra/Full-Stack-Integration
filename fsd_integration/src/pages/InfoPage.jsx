@@ -14,7 +14,15 @@ const InfoPage = () => {
         
         {/* HERO SECTION */}
         <section className="fade-in" style={{ textAlign: 'center', marginBottom: '6rem', padding: '4rem 0' }}>
-          <h1 className="heading-1" style={{ fontSize: '5rem', marginBottom: '1.5rem' }}>Intelligence Hub</h1>
+          <h1 className="heading-1" style={{ 
+            fontSize: '6.5rem', 
+            fontFamily: "'Playfair Display', serif",
+            marginBottom: '1.5rem',
+            background: 'linear-gradient(to bottom, var(--text-main), var(--text-muted))',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            letterSpacing: '-0.02em'
+          }}>Intelligence Hub</h1>
           <p className="text-sub" style={{ fontSize: '1.4rem', maxWidth: '900px', margin: '0 auto' }}>
             The global headquarters for tactical personal security. SafeRoute integrates real-time telemetry 
             with advanced emergency protocols to keep you one step ahead in every environment.
