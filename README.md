@@ -40,16 +40,6 @@ Automated time-horizon monitoring. If manual confirmation isn't received within 
 <img width="1159" height="859" alt="image" src="https://github.com/user-attachments/assets/3b61326c-27f8-4525-84c2-7c1984004107" />
 
 
-
-## 🎨 Design System: "Sky Workspace"
-The platform features a proprietary **Sky Workspace** theme designed for maximum clarity and professional impact:
-- **Expansive Horizon**: Optimized for **1800px workstation** displays with wide-grid architecture.
-- **Jewel Gloss Buttons**: High-fidelity gradients, 3D inner glows, and lustrous shimmer hover effects.
-- **Airy Palette**: A fresh `#f0f7ff` sky-blue background paired with authoritative navy typography.
-- **Broad Inputs**: Tactical, massive interaction targets for rapid data entry during critical moments.
-
----
-
 ## 🛠 Tech Stack
 
 ### Frontend (Modern React)
@@ -66,22 +56,6 @@ The platform features a proprietary **Sky Workspace** theme designed for maximum
 
 ---
 
-## 🚀 Deployment Checklist
-
-### Prerequisites
-- **Java JDK 17+**
-- **Node.js 18+**
-- **MySQL 8.0**
-- **Alert Credentials** (Provider specific)
-
-### Critical Configuration
-Update your `application.properties` with the following tactical secrets:
-```properties
-jwt.secret=YOUR_CUSTOM_256_BIT_SECRET
-app.jwt.expiration-ms=604800000
-spring.mail.password=${ALERT_PASSWORD}
-```
-
 ### Installation Sequence
 1. **Clone & Target**: `git clone https://github.com/Bianca-Malhotra/Full-Stack-Integration.git`
 2. **Launch Backend**: `mvn spring-boot:run` (Starts on :8081)
@@ -89,12 +63,8 @@ spring.mail.password=${ALERT_PASSWORD}
 
 ---
 
-## 🤝 Developer Spotlight
-**SafeRoute** was architected and developed with a passion for public safety and high-fidelity tactical design by **Bianca Malhotra**.
-
-- **GitHub**: [Bianca-Malhotra](https://github.com/Bianca-Malhotra)
-- **LinkedIn**: [Bianca Malhotra](https://www.linkedin.com/in/bianca-malhotra/)
-
+## 🤝 Developer 
+**Bianca Malhotra**.
 ---
 
 *© 2026 SafeRoute Operational Security Platform. Built with ❤️ for Global Safety.*
