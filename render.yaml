@@ -1,10 +1,8 @@
 services:
   - type: web
     name: saferoute-backend
-    runtime: java
+    runtime: docker
     rootDir: Rest-Api-main/Rest-Api
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
