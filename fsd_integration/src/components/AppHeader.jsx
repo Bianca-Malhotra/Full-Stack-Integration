@@ -38,14 +38,14 @@ const AppHeader = () => {
             <span className="brand-tag" style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', marginTop: '0.25rem' }}>Operational Security Platform</span>
           </div>
         </div>
-        <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'center' }}>
-          <button onClick={toggleTheme} className="btn-outline" style={{ padding: '0.6rem 1rem', fontSize: '1.2rem', borderRadius: '50px', width: '45px' }}>
+        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
+          <button onClick={toggleTheme} className="btn-outline" style={{ padding: '1rem', fontSize: '1.5rem', borderRadius: '50px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             {isDark ? "🔆" : "🌙"}
           </button>
-          <button onClick={() => navigate("/")} className="btn-outline" style={{ padding: '0.6rem 1.5rem', fontSize: '0.85rem', borderRadius: '50px' }}>Intelligence Hub</button>
-          <button onClick={() => navigate("/dashboard")} className="btn-outline" style={{ padding: '0.6rem 1.5rem', fontSize: '0.85rem', borderRadius: '50px' }}>Operational Dashboard</button>
-          <button onClick={() => navigate("/contacts")} className="btn-outline" style={{ padding: '0.6rem 1.5rem', fontSize: '0.85rem', borderRadius: '50px' }}>Security Network</button>
-          <button onClick={logout} className="btn-primary" style={{ padding: '0.6rem 1.5rem', fontSize: '0.85rem', borderRadius: '50px' }}>Secure Logout</button>
+          <button onClick={() => navigate("/")} className="btn-outline" style={{ padding: '1rem 2.5rem', fontSize: '1rem', borderRadius: '50px', fontWeight: 800 }}>Intelligence Hub</button>
+          <button onClick={() => navigate("/dashboard")} className="btn-outline" style={{ padding: '1rem 2.5rem', fontSize: '1rem', borderRadius: '50px', fontWeight: 800 }}>Operational Dashboard</button>
+          <button onClick={() => navigate("/contacts")} className="btn-outline" style={{ padding: '1rem 2.5rem', fontSize: '1rem', borderRadius: '50px', fontWeight: 800 }}>Security Network</button>
+          <button onClick={logout} className="btn-primary" style={{ padding: '1rem 2.5rem', fontSize: '1rem', borderRadius: '50px', fontWeight: 800 }}>Secure Logout</button>
         </div>
       </div>
     </header>
