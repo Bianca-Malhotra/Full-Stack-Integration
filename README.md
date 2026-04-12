@@ -36,6 +36,11 @@ Automated time-horizon monitoring. If manual confirmation isn't received within 
 
 ---
 
+<img width="1894" height="831" alt="image" src="https://github.com/user-attachments/assets/0e7e8f79-ccdb-4c35-9c53-5bbebec54d00" />
+<img width="1159" height="859" alt="image" src="https://github.com/user-attachments/assets/3b61326c-27f8-4525-84c2-7c1984004107" />
+
+
+
 ## 🎨 Design System: "Sky Workspace"
 The platform features a proprietary **Sky Workspace** theme designed for maximum clarity and professional impact:
 - **Expansive Horizon**: Optimized for **1800px workstation** displays with wide-grid architecture.
