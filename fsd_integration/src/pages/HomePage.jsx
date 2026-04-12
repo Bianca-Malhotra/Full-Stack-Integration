@@ -174,9 +174,9 @@ const HomePage = () => {
              {/* Dynamic Interaction Area */}
              <div style={{ minHeight: '500px' }}>
                 {!activeAction && (
-                  <div className="glass-card" style={{ height: '500px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%)', textAlign: 'center' }}>
+                  <div className="glass-card" style={{ height: '500px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'var(--bg-main)', textAlign: 'center', border: '1px dashed var(--border-light)' }}>
                      <div style={{ fontSize: '4rem', opacity: 0.1, marginBottom: '2rem' }}>📡</div>
-                     <h3 className="heading-2" style={{ fontSize: '2rem' }}>Monitoring Standby</h3>
+                     <h3 className="heading-2" style={{ fontSize: '2rem', color: 'var(--text-main)' }}>Monitoring Standby</h3>
                      <p className="text-sub" style={{ maxWidth: '400px', fontSize: '1.1rem' }}>Initiate a tactical operation from the left console to analyze live telemetry.</p>
                   </div>
                 )}
