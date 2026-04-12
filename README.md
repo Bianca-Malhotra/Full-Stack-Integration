@@ -28,6 +28,12 @@ The platform is structured into a logical, high-performance workstation hierarch
 
 ## ✨ Core Tactical Protocols
 
+### 🔗 Live Intelligence Link
+One-tap native sharing (WhatsApp/SMS) of a secret, view-only monitoring feed. Emergency contacts can track live telemetry and status without needing an account.
+
+### 🌗 Shadow Protocol (Dark Mode)
+A persistent, high-fidelity dark vision environment featuring deep midnight gradients (#020617) and high-contrast Ghost-White identities for nighttime operations.
+
 ### 📡 Global Telemetry
 Real-time location synchronization across secure cloud architecture, ensuring your network always knows your precise coordinates during active journeys.
 
