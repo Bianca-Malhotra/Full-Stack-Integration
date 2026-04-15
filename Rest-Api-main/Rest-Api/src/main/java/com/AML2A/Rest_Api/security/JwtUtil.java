@@ -14,11 +14,11 @@ import java.util.Date;
 public class JwtUtil {
 
     // Must be at least 256 bits (32 bytes) long
-    @Value("${jwt.secret}")
+    @Value("${app.jwt.secret}")
     private String jwtSecret;
 
-    @Value("${jwt.expiration}")
-    private int jwtExpirationMs;
+    @Value("${app.jwt.expiration-ms}")
+    private long jwtExpirationMs;
 
     private Key key() {
         return Keys.hmacShaKeyFor(jwtSecret.getBytes());
